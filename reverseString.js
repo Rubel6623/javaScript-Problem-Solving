@@ -1,5 +1,5 @@
 function reverseString(string){
-  if(string==null || typeof string!=='string'){
+  if(string.length==0 || typeof string!=='string'){
     return;
   }
 
@@ -10,6 +10,6 @@ function reverseString(string){
   return reverseStr;
 }
 
-const myString='Rubel Rudra';
+const myString='';
 const result=reverseString(myString);
 console.log(result);
