@@ -1,16 +1,11 @@
-function findTwoNumbersSum(array, target) {
-  let left = 0;
-  let right = array.length - 1;
+const findTwoNumbersSum=(array, target)=> {
 
-  while (left < right) {
-    const sum = array[left] + array[right];
-
-    if (sum === target) {
-      return [left, right];
-    } else if (sum < target) {
-      left++;
-    } else {
-      right--;
+  for(let i=0;i<array.length-1;i++){
+    for(let j=i+1;j<array.length; j++){
+      if(array[i]+array[j]===target){
+        console.log(array[i]);
+        return [i,j];
+      }
     }
   }
   return [];
