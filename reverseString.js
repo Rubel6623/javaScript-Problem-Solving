@@ -1,4 +1,4 @@
-function reverseString(string){
+const reverseString=(string)=>{
   if(string.length==0 || typeof string!=='string'){
     return;
   }

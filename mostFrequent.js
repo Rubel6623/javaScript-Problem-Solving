@@ -1,4 +1,4 @@
-function findMostFrequent(array){
+const findMostFrequent=(array)=>{
   const counter={};
 
   for(let i=0;i<array.length;i++){

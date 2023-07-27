@@ -14,7 +14,6 @@ const romanToInteger=(romanNumber)=> {
     }
     prevValue = value;
   }
-
   return total;
 }
 
