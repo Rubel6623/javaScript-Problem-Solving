@@ -3,7 +3,6 @@ const sumOfPositiveNumbers=(numbers)=>{
 
   for(let i=0; i<numbers.length; i++){
     let num=numbers[i];
-    // console.log(num);
 
     if(num>0){
       sum+=num;
